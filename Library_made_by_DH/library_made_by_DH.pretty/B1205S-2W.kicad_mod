@@ -23,7 +23,7 @@
   (pad "2" thru_hole oval (at 2.54 0) (size 1.524 2) (drill 0.8) (layers *.Cu *.Mask) (tstamp c2cba436-9a3a-40f5-8c5d-fd3c3064334b))
   (pad "4" thru_hole oval (at 7.62 0) (size 1.524 2) (drill 0.8) (layers *.Cu *.Mask) (tstamp 1a1f8f15-50c2-4706-a4c0-ea18e0006ad9))
   (pad "6" thru_hole oval (at 12.7 0) (size 1.524 2) (drill 0.8) (layers *.Cu *.Mask) (tstamp e78a0b9a-d7e0-440a-a733-9ad4438ffafd))
-  (model "/home/smartth/project/2022/ph_hw/1_Kicad/1_Library/Library_3D/b1205s-2w-1.snapshot.1/B1205S-2W/B1205S-2W.STEP"
+  (model "${LIB_DH_3D_DIR}/b1205s-2w-1.snapshot.1/B1205S-2W/B1205S-2W.STEP"
     (offset (xyz -2 -6.5 11))
     (scale (xyz 1 1 1))
     (rotate (xyz -180 0 0))

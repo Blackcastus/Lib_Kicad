@@ -129,7 +129,11 @@
       )
     )
   )
+<<<<<<< HEAD
   (model "${LIB_DH_3D_DIR}/ESP32-WROVER-I/ESP32-WROVER-I.step"
+=======
+  (model "${LIB_HIEN_3D_DIR}/ESP32-WROVER-I/ESP32-WROVER-I.step"
+>>>>>>> 4b6051787fdc9f6f2b232bcdefed523109707025
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

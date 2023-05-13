@@ -1,0 +1,63 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "B0505S-2W" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "IC" (id 0) (at -5.08 10.16 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "B0505S-2W" (id 1) (at -5.08 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "B0505S-2W" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "VALUE" "B0505S-2W" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MPN" "B0505S-2W" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "B0505S-2W_0_0"
+      (polyline
+        (pts (xy 0.0 7.62) (xy 0.0 -7.62)) (stroke (width 0.1524))
+      )
+      (text "ISOLATED" (at -5.08 0.0 0)
+        (effects (font (size 1.778 1.778)) (justify bottom left))
+      )
+      (rectangle (start -10.16 -7.62) (end 10.16 7.62)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin input line (at -15.24 5.08 0) (length 5.08)
+        (name "VIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "VIN"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 -5.08 0) (length 5.08)
+        (name "GNDA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "GNDA"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 5.08 180.0) (length 5.08)
+        (name "VOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "VOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 -5.08 180.0) (length 5.08)
+        (name "GNDB"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "GNDB"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

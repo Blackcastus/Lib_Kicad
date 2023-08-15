@@ -1,4 +1,4 @@
-(footprint "Header_4P_2.54mm" (version 20221018) (generator pcbnew)
+(footprint "XH-4P-2.54mm" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
   (fp_text reference "REF**" (at -3.275 -4.76) (layer "F.SilkS")
@@ -41,9 +41,9 @@
   (pad "2" thru_hole circle (at -1.25 0.525) (size 1.508 1.508) (drill 1) (layers "*.Cu" "*.Mask") (tstamp f4de8596-ae07-424b-a5f3-5290b762a046))
   (pad "3" thru_hole circle (at 1.25 0.525) (size 1.508 1.508) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 81c54582-f25c-42b1-8b31-3855c6e93f9c))
   (pad "4" thru_hole circle (at 3.75 0.525) (size 1.508 1.508) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 28ab89b6-bd36-49aa-b4b7-56a1f96f02f2))
-  (model "${LIB_DH_3D_DIR}/Header_2.54mm/B4B-XH-A_LF__SN_/B4B-XH-A_LF__SN_.step"
-    (offset (xyz 0 0 0))
+  (model "${LIB_HIEN_3D_DIR}/jst-connectors-4.snapshot.1/JST - XH - Thru V - 2.54mm/JST - XH - Thru V - 4Pin - 2.54mm.stp"
+    (offset (xyz 0 -0.5 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
+    (rotate (xyz 0 0 0))
   )
 )

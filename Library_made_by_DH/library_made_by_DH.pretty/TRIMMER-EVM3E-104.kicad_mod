@@ -24,4 +24,9 @@
   (pad "1" smd rect (at 0.5334 -0.5588) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2e2b295e-02a1-46b4-84ce-c9a7ef66b038))
   (pad "2" smd rect (at 1.524 -3.302) (size 1.6 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 65f527dc-9ad6-4249-910c-64cfd0c6796a))
   (pad "3" smd rect (at 2.5654 -0.5588) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 646eccad-41e1-4536-a68f-d5b69722b6ea))
+  (model "${LIB_HIEN_3D_DIR}/Trimer-evm3e-1/EVM-3E.STEP"
+    (offset (xyz 1.5 2 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
